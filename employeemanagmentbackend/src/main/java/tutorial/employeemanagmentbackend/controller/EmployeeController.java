@@ -39,19 +39,19 @@ public class EmployeeController {
 
     /**here, we are geting one empployee*/
     @GetMapping("/{id}")
-    public Optional<Employee> getEmployeeById(@PathVariable int id){
+    public Optional<Employee> getEmployeeById(@PathVariable("id") int id){
         return employeeService.getEmployeeById(id);
     }
 
     /**here, we get gonna be updating an employee*/
     @PutMapping("/{id}")
-    public Employee updateEmployee(@PathVariable int id, @RequestBody Employee employee){
+    public Employee updateEmployee(@PathVariable("id") int id, @RequestBody Employee employee){
         return employeeService.updateEmployee(id,employee);
     }
 
     /**Here, we are gonna be deleting an employee*/
     @DeleteMapping("/{id}")
-    public void deleteEmployee(@PathVariable int id){
+    public void deleteEmployee(@PathVariable("id") int id){
         employeeService.deleteEmployee(id);
     }
 
