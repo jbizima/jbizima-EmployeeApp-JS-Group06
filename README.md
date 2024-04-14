@@ -1,6 +1,6 @@
 # EmployeeApp-JS-GroupXX
 
-Welcome to our Employee Management App project! This Employee Management System performs basic CRUD Operations. Our group members are Emelyne Uwimbabazi, Fred Shema, and Joshua Bizima.
+Welcome to our Employee Management App project! This Employee Management System performs basic CRUD Operations. Our group members are Emelyne Uwimbabazi and Joshua Bizima.
 
 ## Exercise Objectives
 
@@ -28,11 +28,14 @@ Welcome to our Employee Management App project! This Employee Management System 
 ![Postman](https://img.shields.io/badge/postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black)
 
+- **React:** Front-end JavaScript library for building the user interface.
+- **MySQL:** Database for storing information.
+- **Spring Boot:** Java-based framework for building the backend and handling server-side logic.
+- **Postman:** Tool for API development and testing.
 ## Employee Management App
 <img width="1417" alt="Screenshot" src="images/Screenshot (392).png">
 
 ## Authors
 
 - Emelyne Uwimbabazi - [Github](https://github.com/emelyne1234)
-- Fred Shema - [Github](https://github.com/Ndi-Shema)
 - Joshua Bizima - [Github](https://github.com/jbizima)
